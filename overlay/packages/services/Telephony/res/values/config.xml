@@ -15,6 +15,6 @@
 -->
 
 <resources>
-    <bool name="config_enabled_tdscdma" translatable="false">true</bool>
+    <!-- <bool name="config_enabled_tdscdma" translatable="false">true</bool> -->
     <bool name="allow_emergency_numbers_in_call_log">true</bool>
 </resources>
