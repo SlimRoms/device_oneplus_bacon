@@ -15,28 +15,33 @@
    "branch":      "lp5.0"
  },
  {
-   "repository":  "SlimRoms/kernel_oneplus_msm8974",
+   "repository":  "CyanogenMod/android_kernel_oneplus_msm8974",
    "target_path": "kernel/oneplus/msm8974",
-   "branch":      "lp5.0"
+   "branch":      "cm-12.0"
  },
  {
    "repository": "SlimRoms/hardware_qcom_audio-caf",
    "target_path": "hardware/qcom/audio-caf",
-   "branch":      "lp5.0"
+   "branch":      "kk4.4"
  },
  {
    "repository": "SlimRoms/hardware_qcom_display-caf-new",
    "target_path": "hardware/qcom/display-caf-new",
-   "branch":      "lp5.0"
+   "branch":      "kk4.4"
  },
  {
    "repository": "SlimRoms/hardware_qcom_media-caf-new",
    "target_path": "hardware/qcom/media-caf-new",
-   "branch":      "lp5.0"
+   "branch":      "kk4.4"
  },
  {
    "repository": "SlimRoms/frameworks_opt_connectivity",
    "target_path": "frameworks/opt/connectivity",
-   "branch":      "lp5.0"
+   "branch":      "kk4.4"
+ },
+ {
+   "repository": "android_device_qcom_sepolicy",
+   "target_path": "device/qcom/sepolicy"
+   "branch":      "cm-12.0"
  }
 ]
