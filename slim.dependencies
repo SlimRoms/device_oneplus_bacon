@@ -37,7 +37,7 @@
  {
    "repository": "SlimRoms/frameworks_opt_connectivity",
    "target_path": "frameworks/opt/connectivity",
-   "branch": "kk4.4"
+   "branch": "lp5.0"
  },
  {
    "repository": "android_device_qcom_sepolicy",
