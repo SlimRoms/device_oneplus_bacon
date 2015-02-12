@@ -18,20 +18,5 @@
    "repository": "SlimRoms/kernel_oneplus_msm8974",
    "target_path": "kernel/oneplus/msm8974",
    "branch": "lp5.0"
- },
- {
-   "repository": "SlimRoms/hardware_qcom_audio-caf",
-   "target_path": "hardware/qcom/audio-caf/msm8974",
-   "branch": "lp5.0-caf-8974"
- },
- {
-   "repository": "SlimRoms/hardware_qcom_display-caf",
-   "target_path": "hardware/qcom/display-caf/msm8974",
-   "branch": "lp5.0-caf-8974"
- },
- {
-   "repository": "SlimRoms/hardware_qcom_media-caf",
-   "target_path": "hardware/qcom/media-caf/msm8974",
-   "branch": "lp5.0-caf-8974"
  }
 ]
