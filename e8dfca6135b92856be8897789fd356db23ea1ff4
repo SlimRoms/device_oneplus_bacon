@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_075cb624",
+        "filename": "rootdir/etc/init.bacon.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2015-07-14T21:02:57Z",
+      "side": 0,
+      "message": "?",
+      "range": {
+        "startLine": 57,
+        "startChar": 12,
+        "endLine": 58,
+        "endChar": 0
+      },
+      "revId": "e8dfca6135b92856be8897789fd356db23ea1ff4",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    }
+  ]
+}
