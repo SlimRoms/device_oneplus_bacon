@@ -22,6 +22,30 @@
       "revId": "e8dfca6135b92856be8897789fd356db23ea1ff4",
       "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_a74a8a53",
+        "filename": "rootdir/etc/init.bacon.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2015-07-15T17:57:46Z",
+      "side": 0,
+      "message": "I removed 2 lines.  So??",
+      "parentUuid": "9a5c5d37_075cb624",
+      "range": {
+        "startLine": 57,
+        "startChar": 12,
+        "endLine": 58,
+        "endChar": 0
+      },
+      "revId": "e8dfca6135b92856be8897789fd356db23ea1ff4",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
     }
   ]
 }
