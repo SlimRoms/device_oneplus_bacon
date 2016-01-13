@@ -85,7 +85,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.deep_buffer.media=true
 
 # Bluetooth
-PRODUCT_PROPERTY_OVERRIDES +=
+PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.hfp.client=1
 
 # Boot animation
