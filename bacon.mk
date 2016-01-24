@@ -149,16 +149,7 @@ PRODUCT_PACKAGES += \
     libxml2
 
 # NFC
-ifeq ($(TARGET_BUILD_VARIANT),user)
-    NFCEE_ACCESS_PATH := $(LOCAL_PATH)/configs/nfcee_access.xml
-else
-    NFCEE_ACCESS_PATH := $(LOCAL_PATH)/configs/nfcee_access_debug.xml
-endif
-PRODUCT_COPY_FILES += \
-    $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml
-
 PRODUCT_PACKAGES += \
-    com.android.nfc_extras \
     NfcNci \
     nfc_nci.pn54x.default \
     Tag
@@ -216,10 +207,6 @@ PRODUCT_PACKAGES += \
 # Recovery
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     $(LOCAL_PATH)/bacon
-
-# Thermal config
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine-8974.conf
 
 # WiFi
 PRODUCT_COPY_FILES += \
