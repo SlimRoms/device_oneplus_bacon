@@ -79,6 +79,7 @@ on property:sys.boot_completed=1
     trigger enable-low-power
 
 on property:init.svc.recovery=running
+    write /sys/class/leds/button-backlight/brightness 255
     trigger enable-low-power
 
 on property:recovery.perf.mode=1
