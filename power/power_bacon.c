@@ -25,7 +25,7 @@
 #include <hardware/hardware.h>
 #include <hardware/power.h>
 
-#define CPU_PATH_MAX 	   "/sys/kernel/msm_thermal/user_maxfreq"
+#define CPU_PATH_MAX       "/sys/kernel/msm_thermal/user_maxfreq"
 #define LOW_POWER_MAX_FREQ "960000"
 #define NORMAL_MAX_FREQ    "2457600"
 
@@ -56,18 +56,18 @@ static int sysfs_write(const char *path, char *s)
     return 0;
 }
 
-static void power_init(__attribute__((unused)) struct power_module *module)
+static void power_init(struct power_module *module __unused)
 {
     ALOGI("%s", __func__);
 }
 
-static void power_set_interactive(__attribute__((unused)) struct power_module *module,
-                      __attribute__((unused)) int on)
+static void power_set_interactive(struct power_module *module __unused,
+                int on __unused)
 {
 }
 
-static void power_hint(__attribute__((unused)) struct power_module *module,
-                      power_hint_t hint, __attribute__((unused)) void *data)
+static void power_hint(struct power_module *module __unused, power_hint_t hint,
+                void *data __unused)
 {
     if (hint != POWER_HINT_LOW_POWER)
         return;
@@ -85,8 +85,8 @@ static struct hw_module_methods_t power_module_methods = {
     .open = NULL,
 };
 
-void set_feature(__attribute__((unused)) struct power_module *module,
-		feature_t feature, int state)
+static void set_feature(struct power_module *module __unused,
+                feature_t feature, int state)
 {
 #ifdef TAP_TO_WAKE_NODE
     char tmp_str[64];
