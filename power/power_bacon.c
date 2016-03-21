@@ -29,6 +29,8 @@
 #define LOW_POWER_MAX_FREQ "960000"
 #define NORMAL_MAX_FREQ    "2457600"
 
+#define POWER_NR_OF_SUPPORTED_PROFILES 2
+
 static bool low_power_mode;
 
 static int sysfs_write(const char *path, char *s)
@@ -96,6 +98,13 @@ void set_feature(__attribute__((unused)) struct power_module *module,
 #endif
 }
 
+static int get_feature(struct power_module *module __unused, feature_t feature)
+{
+    if (feature == POWER_FEATURE_SUPPORTED_PROFILES)
+        return POWER_NR_OF_SUPPORTED_PROFILES;
+    return -1;
+}
+
 struct power_module HAL_MODULE_INFO_SYM = {
     .common = {
         .tag = HARDWARE_MODULE_TAG,
@@ -109,5 +118,6 @@ struct power_module HAL_MODULE_INFO_SYM = {
     .init = power_init,
     .powerHint = power_hint,
     .setInteractive = power_set_interactive,
-    .setFeature = set_feature
+    .setFeature = set_feature,
+    .getFeature = get_feature
 };
