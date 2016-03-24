@@ -13,9 +13,8 @@ camera2.portability.force_api=1
 
 # Display
 ro.sf.lcd_density=480
-persist.hwc.mdpcomp.enable=false
+persist.hwc.mdpcomp.enable=true
 persist.sys.strictmode.disable=true
-persist.sys.ui.hw=true
 ro.opengles.version=196608
 
 # GPS
@@ -24,9 +23,9 @@ ro.gps.agps_provider=1
 
 # Media
 af.fast_track_multiplier=1
-
-audio.deep_buffer.media=true
 audio_hal.period_size=192
+persist.audio.fluence.voicecall=true
+ro.qc.sdk.audio.fluencetype=fluence
 use.voice.path.for.pcm.voip=true
 
 audio.offload.buffer.size.kb=32
