@@ -395,4 +395,7 @@
     <!-- BatteryLED fast charge -->
     <integer name="config_chargingFastThreshold">1100000</integer>
 
+    <!-- Whether device supports lockscreen rotation -->
+    <bool name="config_enableLockScreenRotation">true</bool>
+
 </resources>
