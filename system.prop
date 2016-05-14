@@ -24,6 +24,7 @@ ro.gps.agps_provider=1
 # Media
 af.fast_track_multiplier=1
 audio_hal.period_size=192
+drm.service.enabled=true
 persist.audio.fluence.voicecall=true
 ro.qc.sdk.audio.fluencetype=fluence
 
