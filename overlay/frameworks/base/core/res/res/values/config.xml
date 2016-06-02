@@ -19,8 +19,8 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Button illumination -->
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    <!-- Button illumination 
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool>-->
 
     <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -33,12 +33,12 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareKeys">71</integer>
+         config to 7. 
+    <integer name="config_deviceHardwareKeys">71</integer>-->
     
     <!-- Control path for disabling the capacitive hardware keys, if they exist.
-         For example: "/proc/touchpanel/keypad_enable"  -->
-    <string name="config_deviceHardwareKeysFilePath" translatable="false">/proc/touchpanel/keypad_enable</string>
+         For example: "/proc/touchpanel/keypad_enable"  
+    <string name="config_deviceHardwareKeysFilePath" translatable="false">/proc/touchpanel/keypad_enable</string>-->
 
     <!-- Hardware keys present on the device with the ability to wake, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -65,7 +65,7 @@
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java -->
     <integer name="config_longPressOnHomeBehavior">3</integer>
 
-    <integer name="config_longPressOnMenuBehavior">2</integer>
+    <!--<integer name="config_longPressOnMenuBehavior">2</integer>-->
 
     <!-- Control the behavior when the user double-taps the home button.
             0 - Nothing
@@ -207,8 +207,8 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
-    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option 
+    <bool name="config_intrusiveBatteryLed">true</bool>-->
 
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
@@ -309,12 +309,12 @@
     <color name="config_defaultNotificationColor">#ffffffff</color>
 
     <!-- Does the notification LED support multiple colors?
-         Used to decide if the user can change the colors -->
-    <bool name="config_multiColorNotificationLed">true</bool>
+         Used to decide if the user can change the colors 
+    <bool name="config_multiColorNotificationLed">true</bool>-->
 
     <!-- Does the battery LED support multiple colors?
-         Used to decide if the user can change the colors -->
-    <bool name="config_multiColorBatteryLed">true</bool>
+         Used to decide if the user can change the colors 
+    <bool name="config_multiColorBatteryLed">true</bool>-->
 
     <!-- Indicate the device's Smart Cover coordinates.
          If none are provided, then the feature will be disabled.
@@ -363,10 +363,10 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
     <!-- Default value for proximity check on screen wake
-     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
+     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)
     <bool name="config_proximityCheckOnWake">true</bool>
     <integer name="config_proximityCheckTimeout">250</integer>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>-->
 
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
@@ -398,8 +398,8 @@
     <!-- Operating voltage for bluetooth controller. 0 by default-->
     <integer translatable="false" name="config_bluetooth_operating_voltage_mv">3700</integer>
 
-    <!-- BatteryLED fast charge -->
-    <integer name="config_chargingFastThreshold">1100000</integer>
+    <!-- BatteryLED fast charge 
+    <integer name="config_chargingFastThreshold">1100000</integer>-->
 
     <!-- Whether device supports lockscreen rotation -->
     <bool name="config_enableLockScreenRotation">true</bool>
