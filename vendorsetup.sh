@@ -1,3 +1,3 @@
-add_lunch_combo candy_bacon-user
-add_lunch_combo candy_bacon-userdebug
-add_lunch_combo candy_bacon-eng
+add_lunch_combo slim_bacon-user
+add_lunch_combo slim_bacon-userdebug
+add_lunch_combo slim_bacon-eng

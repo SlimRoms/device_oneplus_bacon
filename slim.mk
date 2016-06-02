@@ -19,12 +19,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/bacon/bacon.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/candy/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
-# Inherit some common candy stuff.
-$(call inherit-product, vendor/candy/config/common_full_phone.mk)
+# Inherit some common slim stuff.
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
-PRODUCT_NAME := candy_bacon
+PRODUCT_NAME := slim_bacon
 PRODUCT_DEVICE := bacon
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := A0001
@@ -38,7 +38,7 @@ TARGET_VENDOR_DEVICE_NAME := A0001
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=A0001 PRODUCT_NAME=bacon
 
 # Unofficial build ID
-TARGET_UNOFFICIAL_BUILD_ID := Sultan
+TARGET_UNOFFICIAL_BUILD_ID := NoSpamDan
 
 ## Use the latest approved GMS identifiers unless running a signed build
 ifneq ($(SIGN_BUILD),true)
