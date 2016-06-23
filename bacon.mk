@@ -86,8 +86,7 @@ PRODUCT_PACKAGES += \
     gralloc.msm8974 \
     hwcomposer.msm8974 \
     memtrack.msm8974 \
-    liboverlay \
-    libboringssl-compat
+    liboverlay
 
 # GPS
 PRODUCT_PACKAGES += \
