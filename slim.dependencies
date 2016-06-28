@@ -8,5 +8,10 @@
     "repository":  "SlimRoms/device_oppo_common",
     "target_path": "device/oppo/common",
     "branch":      "mm6.0"
+  },
+  {
+    "repository":  "SlimRoms/android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat",
+    "branch":      "mm6.0"
   }
 ]
