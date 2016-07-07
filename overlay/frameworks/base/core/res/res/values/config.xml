@@ -31,10 +31,9 @@
              8 - Assistant (search)
             16 - App switch
             32 - Camera
-            64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. 
-    <integer name="config_deviceHardwareKeys">71</integer>-->
+         config to 7. -->
+    <integer name="config_deviceHardwareKeys">7</integer>
     
     <!-- Control path for disabling the capacitive hardware keys, if they exist.
          For example: "/proc/touchpanel/keypad_enable"  
