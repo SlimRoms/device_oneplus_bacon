@@ -155,6 +155,7 @@ TARGET_RIL_VARIANT := caf
 # Recovery
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.bacon
 WITH_LZMA_OTA := true
+BOARD_SUPPRESS_SECURE_ERASE := true
 
 # RPC
 TARGET_NO_RPC := true
