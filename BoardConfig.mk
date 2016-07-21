@@ -131,8 +131,8 @@ NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 TARGET_USES_ALT_DOZE := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/oneplus/bacon/init/init_bacon.cpp
+TARGET_INIT_VENDOR_LIB := libinit_bacon
+TARGET_RECOVERY_DEVICE_MODULES := libinit_bacon
 
 # Keymaster
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
