@@ -61,7 +61,7 @@
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java -->
     <integer name="config_longPressOnHomeBehavior">3</integer>
 
-    <integer name="config_longPressOnMenuBehavior">2</integer>
+    <!--<integer name="config_longPressOnMenuBehavior">2</integer>-->
 
     <!-- Control the behavior when the user double-taps the home button.
             0 - Nothing
