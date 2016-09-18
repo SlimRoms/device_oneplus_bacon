@@ -66,8 +66,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.bacon \
-    Snap
+    camera.bacon
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -110,7 +109,8 @@ PRODUCT_COPY_FILES += \
 
 # Keystore
 PRODUCT_PACKAGES += \
-    keystore.msm8974
+    keystore.msm8974 \
+    gatekeeper.msm8974
 
 # Lights
 PRODUCT_PACKAGES += \
@@ -248,9 +248,13 @@ ifneq ($(QCPATH),)
 $(call inherit-product-if-exists, $(QCPATH)/prebuilt_HY11/target/product/msm8974/prebuilt.mk)
 endif
 
+# Telephony-ext
+PRODUCT_PACKAGES += telephony-ext
+PRODUCT_BOOT_JARS += telephony-ext
+
 # Doze
 PRODUCT_PACKAGES += \
     OnePlusDoze
 
 # Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
+#$(call inherit-product, device/oppo/common/common.mk)
