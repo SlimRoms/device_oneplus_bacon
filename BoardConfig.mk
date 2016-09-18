@@ -162,6 +162,9 @@ TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.bacon
 # RPC
 TARGET_NO_RPC := true
 
+# Legacy Blobs
+TARGET_NEEDS_TEXT_RELOCATIONS := true
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
