@@ -162,6 +162,9 @@ TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.bacon
 # RPC
 TARGET_NO_RPC := true
 
+# Sensors
+BOARD_GLOBAL_CFLAGS += -DCOMPAT_SENSORS_M
+
 # Legacy Blobs
 TARGET_NEEDS_TEXT_RELOCATIONS := true
 
