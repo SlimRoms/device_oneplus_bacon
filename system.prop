@@ -2,6 +2,11 @@
 # system.prop for one+
 #
 
+# ADB enable
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+
 # Bluetooth
 bluetooth.hfp.client=1
 
