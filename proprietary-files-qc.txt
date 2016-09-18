@@ -98,6 +98,12 @@ vendor/lib/libscale.so
 etc/firmware/a330_pfp.fw
 etc/firmware/a330_pm4.fw
 
+# Keystore
+vendor/lib/hw/keystore.msm8974.so
+
+# Gatekeeper
+vendor/lib/hw/gatekeeper.msm8974.so
+
 # Listen service
 vendor/lib/liblistenhardware.so
 vendor/lib/liblistenjni.so
