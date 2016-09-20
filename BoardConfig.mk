@@ -164,8 +164,9 @@ TARGET_NO_RPC := true
 
 # Sensors
 BOARD_GLOBAL_CFLAGS += -DCOMPAT_SENSORS_M
+TARGET_NEEDS_GCC_LIBC := true
 
-# Legacy Blobs
+# Text relocations for legacy blobs
 TARGET_NEEDS_TEXT_RELOCATIONS := true
 
 # SELinux
