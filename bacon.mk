@@ -109,8 +109,7 @@ PRODUCT_COPY_FILES += \
 
 # Keystore
 PRODUCT_PACKAGES += \
-    keystore.msm8974 \
-    gatekeeper.msm8974
+    keystore.msm8974
 
 # Lights
 PRODUCT_PACKAGES += \
