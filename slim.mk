@@ -24,9 +24,6 @@ $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 # Inherit some common Slim stuff.
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
-# Slim framework
-DISABLE_SLIM_FRAMEWORK := true
-
 PRODUCT_NAME := slim_bacon
 PRODUCT_DEVICE := bacon
 PRODUCT_MANUFACTURER := OnePlus
