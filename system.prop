@@ -43,7 +43,7 @@ persist.data.tcpackprio.enable=true
 ro.data.large_tcp_window_size=true
 
 # Perf
-ro.qualcomm.perf.cores_online=2
+ro.qualcomm.perf.cores_online=1
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # Radio
