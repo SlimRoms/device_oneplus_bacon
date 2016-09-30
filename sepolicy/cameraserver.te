@@ -1,0 +1,3 @@
+# /sys/devices/virtual/camera/*/*_camfw
+allow cameraserver video_device:file { read open getattr };
+allow cameraserver video_device:chr_file { read open getattr };
