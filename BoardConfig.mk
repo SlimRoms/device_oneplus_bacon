@@ -167,7 +167,7 @@ TARGET_NO_RPC := true
 TARGET_NEEDS_GCC_LIBC := true
 
 # Text relocations for legacy blobs
-TARGET_NEEDS_TEXT_RELOCATIONS := true
+TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
