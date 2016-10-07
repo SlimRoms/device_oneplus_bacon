@@ -69,7 +69,8 @@ PRODUCT_PACKAGES += \
     camera.bacon
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    media.stagefright.codecremote=false
+    media.stagefright.codecremote=false \
+    media.stagefright.legacyencoder=true
 
 # Charger
 PRODUCT_PACKAGES += \
