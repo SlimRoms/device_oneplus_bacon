@@ -72,6 +72,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.bacon
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.stagefright.codecremote=false
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
