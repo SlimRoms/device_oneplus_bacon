@@ -68,9 +68,6 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     camera.bacon
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    media.stagefright.codecremote=false
-
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
