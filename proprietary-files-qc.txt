@@ -39,7 +39,6 @@ vendor/lib/mediadrm/libwvdrmengine.so
 bin/loc_launcher
 lib/libloc_api_v02.so
 lib/libloc_ds_api.so
-vendor/lib/hw/activity_recognition.msm8974.so
 vendor/lib/hw/flp.default.so
 vendor/lib/libflp.so
 vendor/lib/libgeofence.so
