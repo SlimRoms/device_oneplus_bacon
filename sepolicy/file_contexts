@@ -11,3 +11,6 @@
 # Old camera socket
 /data/cam_socket1                                       u:object_r:camera_socket:s0
 /data/cam_socket2                                       u:object_r:camera_socket:s0
+
+# Modem
+/dev/subsys_modem                                       u:object_r:subsys_modem_device:s0
