@@ -352,14 +352,7 @@ static int camera_set_parameters(struct camera_device *device,
     CameraParameters2 params;
 	params.unflatten(String8(tmpParams));
 
-    gClearImageEnabled = strcmp(params.get("clear-image"), "on") == 0;
-    if (gClearImageEnabled) {
-        params.set("high-resolution", "1300");
-        params.set("superzoom", "0");
-    } else {
-        params.set("high-resolution", "0");
-        params.remove("superzoom");
-    }
+    params.set("superzoom", "1");
 
     bool isJpeg = strcmp(params.get("picture-format"), "jpeg") == 0;
     bool isRaw = strcmp(params.get("raw-and-jpeg"), "1") == 0;
@@ -425,18 +418,18 @@ static char *camera_get_parameters(struct camera_device *device)
         }
     }
 
+<<<<<<< HEAD
     params.set("clear-image-values", "off,on");
     params.set("clear-image", gClearImageEnabled ? "on" : "off");
     params.set("raw-and-jpeg", "0");
     params.set("exposure-time", "0");
 
+=======
+>>>>>>> 8fb2634... bacon: camera: remove ClearImage & bring back superzoom
     const char *pf = params.get(android::CameraParameters::KEY_PREVIEW_FORMAT);
     if (pf && strcmp(pf, "nv12-venus") == 0) {
         params.set(android::CameraParameters::KEY_PREVIEW_FORMAT, "yuv420sp");
     }
-
-    params.remove("high-resolution");
-    params.remove("superzoom");
 
     return strdup(params.flatten().string());
 }
