@@ -352,6 +352,8 @@ static int camera_set_parameters(struct camera_device *device,
     CameraParameters2 params;
 	params.unflatten(String8(tmpParams));
 
+    params.set("zsl", "on");
+
     delete tmpParams;
 
     return VENDOR_CALL(device, set_parameters, strdup(params.flatten().string()));
